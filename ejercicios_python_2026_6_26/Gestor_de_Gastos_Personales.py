@@ -33,6 +33,7 @@ while verdad:
         ingrese 2 si desea la sumatoria del gasto\n"""))
         if desea_salir ==0:
                 verdad = False
+                print("Ha salido correctamente")
         elif desea_salir == 1:
             ingresa_tu_gasto() 
         elif desea_salir == 2:
